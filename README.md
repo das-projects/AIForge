@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD030 -->
 
-# ⛓️ Langflow
+# ⛓️ AIForge
 
 <h3>Discover a simpler & smarter way to build around Foundation Models</h3>
 <!-- 
@@ -25,53 +25,37 @@
 
 ### <b>Locally</b>
 
-You can install Langflow from pip:
+You can install AIForge from pip:
 
 ```shell
 # This installs the package without dependencies for local models
-pip install langflow
+pip install aiforge
 ```
-
-To use local models (e.g llama-cpp-python) run:
-
-```shell
-pip install langflow[local]
-```
-
-This will install the following dependencies:
-
-- [CTransformers](https://github.com/marella/ctransformers)
-- [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
-- [sentence-transformers](https://github.com/UKPLab/sentence-transformers)
 
 You can still use models from projects like LocalAI, Ollama, LM Studio, Jan and others.
 
 Next, run:
 
 ```shell
-python -m langflow
+python -m aiforge
 ```
 
 or
 
 ```shell
-langflow run # or langflow --help
+aiforge run # or aiforge --help
 ```
-
-### HuggingFace Spaces
-
-You can also check it out on [HuggingFace Spaces](https://huggingface.co/spaces/Logspace/Langflow) and run it in your browser! You can even clone it and have your own copy of Langflow to play with.
 
 # 🖥️ Command Line Interface (CLI)
 
-Langflow provides a command-line interface (CLI) for easy management and configuration.
+AIForge provides a command-line interface (CLI) for easy management and configuration.
 
 ## Usage
 
-You can run the Langflow using the following command:
+You can run the AIForge using the following command:
 
 ```shell
-langflow run [OPTIONS]
+aiforge run [OPTIONS]
 ```
 
 Each option is detailed below:
@@ -126,7 +110,7 @@ Alternatively, click the **"Open in Cloud Shell"** button below to launch Google
 
 # 🎨 Creating Flows
 
-Creating flows with Langflow is easy. Simply drag components from the sidebar onto the canvas and connect them to start building your application.
+Creating flows with AIForgeflow is easy. Simply drag components from the sidebar onto the canvas and connect them to start building your application.
 
 Explore by editing prompt parameters, grouping components into a single high-level component, and building your own Custom Components.
 
@@ -135,11 +119,11 @@ Once you’re done, you can export your flow as a JSON file.
 Load the flow with:
 
 ```python
-from langflow import load_flow_from_json
+from aiforge import load_flow_from_json
 
 flow = load_flow_from_json("path/to/flow.json")
 # Now you can use it
-flow("Hey, have you heard of Langflow?")
+flow("Hey, have you heard of AIForge?")
 ```
 
 <!-- # 👋 Contributing
@@ -158,4 +142,4 @@ Join our [Discord](https://discord.com/invite/EqksyE2EX9) server to ask question
 
 # 📄 License
 
-Langflow is released under the MIT License. See the LICENSE file for details.
+AIForge is released under the MIT License. See the LICENSE file for details.
