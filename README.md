@@ -4,7 +4,7 @@
 
 <h3>Discover a simpler & smarter way to build around Foundation Models</h3>
 
-[![Release Notes](https://img.shields.io/github/release/logspace-ai/langflow)](https://github.com/logspace-ai/langflow/releases)
+<!-- [![Release Notes](https://img.shields.io/github/release/logspace-ai/langflow)](https://github.com/logspace-ai/langflow/releases)
 [![Contributors](https://img.shields.io/github/contributors/logspace-ai/langflow)](https://github.com/logspace-ai/langflow/contributors)
 [![Last Commit](https://img.shields.io/github/last-commit/logspace-ai/langflow)](https://github.com/logspace-ai/langflow/last-commit)
 [![Open Issues](https://img.shields.io/github/issues-raw/logspace-ai/langflow)](https://github.com/logspace-ai/langflow/issues)
@@ -17,9 +17,9 @@
 [![](https://dcbadge.vercel.app/api/server/EqksyE2EX9?compact=true&style=flat)](https://discord.com/invite/EqksyE2EX9)
 [![HuggingFace Spaces](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/Logspace/Langflow)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/logspace-ai/langflow)
-
-<a href="https://github.com/logspace-ai/langflow">
-<img width="100%" src="https://github.com/logspace-ai/langflow/blob/dev/docs/static/img/new_langflow_demo.gif"></a>
+<!-- 
+ --><a href="https://github.com/logspace-ai/langflow">
+<img width="100%" src="https://github.com/logspace-ai/langflow/blob/dev/docs/static/img/new_langflow_demo.gif"></a> -->
 
 # 📦 Installation
 
@@ -104,7 +104,7 @@ You can configure many of the CLI options using environment variables. These can
 
 A sample `.env` file named `.env.example` is included with the project. Copy this file to a new file named `.env` and replace the example values with your actual settings. If you're setting values in both your OS and the `.env` file, the `.env` settings will take precedence.
 
-# Deployment
+<!-- # Deployment
 
 ## Deploy Langflow on Google Cloud Platform
 
@@ -122,7 +122,7 @@ Alternatively, click the **"Open in Cloud Shell"** button below to launch Google
 
 <a href="https://render.com/deploy?repo=https://github.com/logspace-ai/langflow/tree/main">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />
-</a>
+</a> -->
 
 # 🎨 Creating Flows
 
@@ -142,7 +142,7 @@ flow = load_flow_from_json("path/to/flow.json")
 flow("Hey, have you heard of Langflow?")
 ```
 
-# 👋 Contributing
+<!-- # 👋 Contributing
 
 We welcome contributions from developers of all levels to our open-source project on GitHub. If you'd like to contribute, please check our [contributing guidelines](./CONTRIBUTING.md) and help make Langflow more accessible.
 
@@ -154,7 +154,7 @@ Join our [Discord](https://discord.com/invite/EqksyE2EX9) server to ask question
 
 # 🌟 Contributors
 
-[![langflow contributors](https://contrib.rocks/image?repo=logspace-ai/langflow)](https://github.com/logspace-ai/langflow/graphs/contributors)
+[![langflow contributors](https://contrib.rocks/image?repo=logspace-ai/langflow)](https://github.com/logspace-ai/langflow/graphs/contributors) -->
 
 # 📄 License
 
