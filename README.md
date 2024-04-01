@@ -2,7 +2,7 @@
 
 # ⛓️ AIForge
 
-<h3>Discover a simpler & smarter way to build around Foundation Models</h3>
+<h3>Discover a simpler & smarter way to train and deploy any AI Model</h3>
 <!-- 
 [![Release Notes](https://img.shields.io/github/release/logspace-ai/langflow)](https://github.com/logspace-ai/langflow/releases)
 [![Contributors](https://img.shields.io/github/contributors/logspace-ai/langflow)](https://github.com/logspace-ai/langflow/contributors)
